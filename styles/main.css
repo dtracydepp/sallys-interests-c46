@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
+
+.interest {
+	flex-basis: 16%;  /* Make each child element the same width */
+    border: 1px dotted crimson;
+    padding: 1em;
+	margin: 0.5em;
+	text-align: center; /* Center align the text in the boxes */
+}
+
+.bio__interests {
+	display: flex;  /* Display the child items in a Flex layout */
+	flex-wrap: wrap;  /* Let the rows wrap if there are too many */
+	justify-content: space-evenly; /* Evenly space the child elements */
+}
